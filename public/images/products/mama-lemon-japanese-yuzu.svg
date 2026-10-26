@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="1200" height="1200" role="img">
+  <defs>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="34"/></filter>
+    <filter id="soft20" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.16"/></feComponentTransfer>
+    </filter>
+    <filter id="drop" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="26" flood-color="#0d2a1b" flood-opacity="0.22"/>
+    </filter>
+    <linearGradient id="bottleBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#F4FBEF"/>
+      <stop offset="1" stop-color="#DDEFD2"/>
+    </linearGradient>
+    <linearGradient id="bottleGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.16" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="0.82" stop-color="#174D32" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#174D32" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#FFF9DC"/><stop offset="1" stop-color="#F6E48E"/></linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <path d="M 493.7 320.0 C 487.3 368.5 471.1 409.9 438.8 447.7 C 406.5 485.5 346.8 546.4 300.0 546.8 C 253.2 547.3 193.1 488.2 158.2 450.4 C 123.3 412.6 92.5 365.1 90.7 320.0 C 88.9 274.9 112.5 216.6 147.4 179.6 C 182.3 142.6 245.0 101.6 300.0 97.8 C 355.0 94.0 444.9 120.0 477.2 157.0 C 509.5 194.0 500.1 271.5 493.7 320.0 Z" fill="#ffffff" opacity="0.5"/>
+  <path d="M 455.9 330.0 C 456.2 365.8 440.1 405.3 414.1 438.4 C 388.2 471.6 337.7 529.3 300.0 529.0 C 262.3 528.7 218.5 469.9 187.7 436.7 C 156.9 403.5 120.3 370.2 115.4 330.0 C 110.5 289.8 127.4 228.1 158.2 195.3 C 189.0 162.5 257.7 128.4 300.0 133.1 C 342.3 137.8 386.2 190.6 412.2 223.5 C 438.1 256.3 455.5 294.2 455.9 330.0 Z" fill="#F8D940" opacity="0.18"/>
+  
+        <g transform="rotate(-8 300 520)">
+    <circle cx="300" cy="520" r="78" fill="#E9B62A"/>
+    <circle cx="300" cy="520" r="72.54" fill="#FFF8CE"/>
+    <circle cx="300" cy="520" r="68.64" fill="#FCE66A"/>
+    <path d="M 300.60 506.75 L 303.09 451.43 A 68.64 68.64 0 0 1 341.71 465.49 L 308.06 509.47 A 13.260000000000002 13.260000000000002 0 0 0 300.60 506.75 Z M 308.97 510.24 L 346.44 469.46 A 68.64 68.64 0 0 1 366.99 505.05 L 312.94 517.11 A 13.260000000000002 13.260000000000002 0 0 0 308.97 510.24 Z M 313.15 518.29 L 368.06 511.13 A 68.64 68.64 0 0 1 360.93 551.61 L 311.77 526.11 A 13.260000000000002 13.260000000000002 0 0 0 313.15 518.29 Z M 311.17 527.14 L 357.84 556.96 A 68.64 68.64 0 0 1 326.35 583.38 L 305.09 532.24 A 13.260000000000002 13.260000000000002 0 0 0 311.17 527.14 Z M 303.97 532.65 L 320.55 585.49 A 68.64 68.64 0 0 1 279.45 585.49 L 296.03 532.65 A 13.260000000000002 13.260000000000002 0 0 0 303.97 532.65 Z M 294.91 532.24 L 273.65 583.38 A 68.64 68.64 0 0 1 242.16 556.96 L 288.83 527.14 A 13.260000000000002 13.260000000000002 0 0 0 294.91 532.24 Z M 288.23 526.11 L 239.07 551.61 A 68.64 68.64 0 0 1 231.94 511.13 L 286.85 518.29 A 13.260000000000002 13.260000000000002 0 0 0 288.23 526.11 Z M 287.06 517.11 L 233.01 505.05 A 68.64 68.64 0 0 1 253.56 469.46 L 291.03 510.24 A 13.260000000000002 13.260000000000002 0 0 0 287.06 517.11 Z M 291.94 509.47 L 258.29 465.49 A 68.64 68.64 0 0 1 296.91 451.43 L 299.40 506.75 A 13.260000000000002 13.260000000000002 0 0 0 291.94 509.47 Z " fill="#FCE66A" stroke="#F2C531" stroke-width="1.72" stroke-opacity="0.55"/>
+    <path d="M 300.00 506.74 L 300.00 452.92 M 308.52 509.84 L 343.12 468.61 M 313.06 517.70 L 366.06 508.35 M 311.48 526.63 L 358.09 553.54 M 304.54 532.46 L 322.94 583.03 M 295.46 532.46 L 277.06 583.03 M 288.52 526.63 L 241.91 553.54 M 286.94 517.70 L 233.94 508.35 M 291.48 509.84 L 256.88 468.61 " stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.56"/>
+    <ellipse cx="282.84" cy="499.72" rx="24.96" ry="15.600000000000001" fill="#ffffff" opacity="0.22" transform="rotate(-30 282.84 499.72)"/>
+  </g>
+        <g transform="rotate(-22 118 190)">
+    <ellipse cx="118" cy="192.16" rx="40" ry="36" fill="#DDAF1C"/>
+    <ellipse cx="116.4" cy="190" rx="38.8" ry="34.56" fill="#F8D940"/>
+    <ellipse cx="106" cy="177.04" rx="13.600000000000001" ry="7.92" fill="#ffffff" opacity="0.35" transform="rotate(-28 106 177.04)"/>
+    <circle cx="154.8" cy="190" r="5.2" fill="#DDAF1C" opacity="0.55"/>
+  </g>
+        <g transform="translate(140 160) rotate(-54)">
+    <path d="M0 0 C 16.32 -20.16 37.44 -11.088000000000001 48 0 C 37.44 11.088000000000001 16.32 20.16 0 0 Z" fill="#65B832"/>
+    <path d="M0.96 0 C 16.799999999999997 -3.2256 34.56 -1.2096 47.04 0" stroke="#2C7A38" stroke-width="0.96" fill="none" opacity="0.7"/>
+  </g>
+        <circle cx="430" cy="200" r="90" fill="#FFF8CE" opacity="0.7" filter="url(#soft)"/>
+  <g transform="translate(178 22) scale(0.8)">
+    <g filter="url(#drop)">
+  <defs>
+    <clipPath id="sil-mama-lemon-japanese-yuzu">
+      <path d="M136 90 h48 v26 c34 10 56 30 56 62 v436 c0 14 -10 24 -24 24 h-96 c-14 0 -24 -10 -24 -24 v-436 c0 -32 22 -52 56 -62 v-26 z"/>
+    </clipPath>
+    <linearGradient id="labelBg-mama-lemon-japanese-yuzu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF2"/>
+      <stop offset="1" stop-color="#FFFDF2" stop-opacity="0.86"/>
+    </linearGradient>
+    <linearGradient id="liquid-mama-lemon-japanese-yuzu" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7D84E"/>
+      <stop offset="1" stop-color="#E0A81F"/>
+    </linearGradient>
+    <linearGradient id="shine-mama-lemon-japanese-yuzu" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.0"/>
+      <stop offset="0.12" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="0.62" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.9" stop-color="#174D32" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#174D32" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="cap-mama-lemon-japanese-yuzu" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#174D32" stop-opacity="0.72"/>
+      <stop offset="0.2" stop-color="#174D32"/>
+      <stop offset="0.72" stop-color="#174D32"/>
+      <stop offset="1" stop-color="#0b2a1c"/>
+    </linearGradient>
+    <linearGradient id="grade-mama-lemon-japanese-yuzu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#174D32" stop-opacity="0"/>
+      <stop offset="1" stop-color="#174D32" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="160" cy="664" rx="112" ry="16" fill="#174D32" opacity="0.16" filter="url(#soft20)"/>
+
+  <!-- cap -->
+  <path d="M128 34 h64 a8 8 0 0 1 8 8 v40 h-80 v-40 a8 8 0 0 1 8-8 z" fill="url(#cap-mama-lemon-japanese-yuzu)"/>
+  <rect x="120" y="74" width="80" height="16" rx="7" fill="#174D32"/>
+  <rect x="120" y="74" width="80" height="5" rx="2.5" fill="#ffffff" opacity="0.18"/>
+  <g opacity="0.28" fill="#ffffff">
+    <rect x="126" y="40" width="3" height="34" rx="1.5"/><rect x="144" y="40" width="3" height="34" rx="1.5"/><rect x="162" y="40" width="3" height="34" rx="1.5"/><rect x="180" y="40" width="3" height="34" rx="1.5"/>
+  </g>
+
+  <!-- neck + shoulder -->
+  <path d="M136 90 h48 v26 c34 10 56 30 56 62 v36 h-196 v-36 c0-32 22-52 56-62 v-26 z" fill="url(#bottleBody)"/>
+
+  <!-- liquid, clipped to the bottle silhouette -->
+  <g clip-path="url(#sil-mama-lemon-japanese-yuzu)">
+    <path d="M100 240 h120 v360 h-120 z" fill="url(#liquid-mama-lemon-japanese-yuzu)" opacity="0.92"/>
+    <path d="M100 240 c30 -10 90 -10 120 0 v16 c-30 10 -90 10 -120 0 z" fill="#ffffff" opacity="0.4"/>
+  </g>
+
+  <!-- body -->
+  <path d="M92 178 c34 -10 102 -10 136 0 c4 20 4 42 4 62 v404 c0 14 -10 24 -24 24 h-96 c-14 0 -24 -10 -24 -24 v-404 c0 -20 0 -42 4 -62 z" fill="url(#bottleGlow)" opacity="0.96"/>
+
+  <!-- embossed ribs -->
+  <g opacity="0.25" stroke="#174D32" stroke-width="2">
+    <path d="M96 230 v330" opacity="0.2"/><path d="M102 230 v330" opacity="0.2"/><path d="M108 230 v330" opacity="0.2"/>
+    <path d="M214 230 v330" opacity="0.2"/><path d="M220 230 v330" opacity="0.2"/><path d="M226 230 v330" opacity="0.2"/>
+  </g>
+
+  <!-- specular highlight -->
+  <rect x="108" y="206" width="20" height="400" rx="10" fill="#ffffff" opacity="0.55" filter="url(#soft20)"/>
+  <rect x="112" y="220" width="7" height="360" rx="3.5" fill="#ffffff" opacity="0.9"/>
+
+  <!-- label -->
+  <g clip-path="url(#labelClip-mama-lemon-japanese-yuzu)">
+    <clipPath id="labelClip-mama-lemon-japanese-yuzu"><rect x="88" y="236" width="144" height="286" rx="14"/></clipPath>
+    <rect x="88" y="236" width="144" height="286" rx="14" fill="url(#labelBg-mama-lemon-japanese-yuzu)"/>
+    <!-- top citrus band -->
+    <rect x="88" y="236" width="144" height="56" fill="#F8D940" opacity="0.95"/>
+    <g transform="rotate(12 214 260)">
+    <circle cx="214" cy="260" r="21" fill="#F8D940"/>
+    <circle cx="214" cy="260" r="19.53" fill="#FFFCEB"/>
+    <circle cx="214" cy="260" r="18.48" fill="#FFF3B0"/>
+    <path d="M 214.16 256.43 L 214.83 241.54 A 18.48 18.48 0 0 1 225.23 245.32 L 216.17 257.16 A 3.5700000000000003 3.5700000000000003 0 0 0 214.16 256.43 Z M 216.42 257.37 L 226.50 246.39 A 18.48 18.48 0 0 1 232.04 255.98 L 217.48 259.22 A 3.5700000000000003 3.5700000000000003 0 0 0 216.42 257.37 Z M 217.54 259.54 L 232.33 257.61 A 18.48 18.48 0 0 1 230.40 268.51 L 217.17 261.64 A 3.5700000000000003 3.5700000000000003 0 0 0 217.54 259.54 Z M 217.01 261.92 L 229.57 269.95 A 18.48 18.48 0 0 1 221.10 277.06 L 215.37 263.30 A 3.5700000000000003 3.5700000000000003 0 0 0 217.01 261.92 Z M 215.07 263.41 L 219.53 277.63 A 18.48 18.48 0 0 1 208.47 277.63 L 212.93 263.41 A 3.5700000000000003 3.5700000000000003 0 0 0 215.07 263.41 Z M 212.63 263.30 L 206.90 277.06 A 18.48 18.48 0 0 1 198.43 269.95 L 210.99 261.92 A 3.5700000000000003 3.5700000000000003 0 0 0 212.63 263.30 Z M 210.83 261.64 L 197.60 268.51 A 18.48 18.48 0 0 1 195.67 257.61 L 210.46 259.54 A 3.5700000000000003 3.5700000000000003 0 0 0 210.83 261.64 Z M 210.52 259.22 L 195.96 255.98 A 18.48 18.48 0 0 1 201.50 246.39 L 211.58 257.37 A 3.5700000000000003 3.5700000000000003 0 0 0 210.52 259.22 Z M 211.83 257.16 L 202.77 245.32 A 18.48 18.48 0 0 1 213.17 241.54 L 213.84 256.43 A 3.5700000000000003 3.5700000000000003 0 0 0 211.83 257.16 Z " fill="#FFF3B0" stroke="#F2C531" stroke-width="0.46" stroke-opacity="0.55"/>
+    <path d="M 214.00 256.43 L 214.00 241.94 M 216.29 257.27 L 225.61 246.17 M 217.52 259.38 L 231.79 256.86 M 217.09 261.79 L 229.64 269.03 M 215.22 263.35 L 220.18 276.97 M 212.78 263.35 L 207.82 276.97 M 210.91 261.79 L 198.36 269.03 M 210.48 259.38 L 196.21 256.86 M 211.71 257.27 L 202.39 246.17 " stroke="#ffffff" stroke-opacity="0.5" stroke-width="0.42"/>
+    <ellipse cx="209.38" cy="254.54" rx="6.72" ry="4.2" fill="#ffffff" opacity="0.22" transform="rotate(-30 209.38 254.54)"/>
+  </g>
+    <text x="100" y="256" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="11" font-weight="900" fill="#4A3608" letter-spacing="2.2">CITRAVA</text>
+    <text x="100" y="272" font-family="Arial, Helvetica, sans-serif" font-size="6.4" font-weight="700" fill="#4A3608" letter-spacing="1.5" opacity="0.72">YUZU SERIES</text>
+
+    <!-- product name -->
+    <text x="160" y="336" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#4A3608" letter-spacing="-0.4">JAPANESE</text>
+    <text x="160" y="358" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#4A3608" letter-spacing="-0.4"></text>
+    <text x="160" y="378" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.6" font-weight="700" fill="#4A3608" letter-spacing="1.4" opacity="0.7">YUZU &amp; JERUK NIPIS</text>
+
+    <line x1="112" y1="394" x2="208" y2="394" stroke="#4A3608" stroke-opacity="0.16" stroke-width="1"/>
+
+    <!-- variant -->
+    <text x="160" y="414" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8.6" font-weight="700" fill="#4A3608" letter-spacing="0.9">SABUN CUCI PIRING</text>
+    <g transform="translate(122 426)">
+      <g transform="translate(0 0) rotate(8)">
+    <path d="M0 0 C 6.12 -7.56 14.040000000000001 -4.158 18 0 C 14.040000000000001 4.158 6.12 7.56 0 0 Z" fill="#4CAF50"/>
+    <path d="M0.36 0 C 6.3 -1.2096 12.959999999999999 -0.45359999999999995 17.64 0" stroke="#2C7A38" stroke-width="0.36" fill="none" opacity="0.7"/>
+  </g>
+      <g transform="translate(30 -4) rotate(150)">
+    <path d="M0 0 C 5.44 -6.72 12.48 -3.696 16 0 C 12.48 3.696 5.44 6.72 0 0 Z" fill="#65B832"/>
+    <path d="M0.32 0 C 5.6 -1.0752 11.52 -0.40319999999999995 15.68 0" stroke="#2C7A38" stroke-width="0.32" fill="none" opacity="0.7"/>
+  </g>
+      
+    </g>
+
+    <!-- volume pill -->
+    <rect x="112" y="472" width="96" height="26" rx="13" fill="#4A3608"/>
+    <text x="160" y="489" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="700" fill="#FFFDF2" letter-spacing="0.8">680 mL</text>
+
+    
+  </g>
+  <rect x="88" y="236" width="144" height="286" rx="14" fill="none" stroke="#4A3608" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- bottom reflection -->
+  <path d="M92 612 c34 8 102 8 136 0 v32 c0 14 -10 24 -24 24 h-96 c-14 0 -24 -10 -24 -24 z" fill="url(#grade-mama-lemon-japanese-yuzu)" opacity="0.5"/>
+  <ellipse cx="160" cy="640" rx="60" ry="4" fill="#ffffff" opacity="0.35"/>
+</g>
+  </g>
+  <g>
+      <circle cx="124.1" cy="460.7" r="4.0" fill="#ffffff" opacity="0.13"/>
+      <circle cx="123.0" cy="459.5" r="1.0" fill="#ffffff" opacity="0.43"/>
+    </g><g>
+      <circle cx="183.0" cy="457.4" r="8.0" fill="#ffffff" opacity="0.45"/>
+      <circle cx="180.8" cy="455.1" r="1.9" fill="#ffffff" opacity="0.75"/>
+    </g><g>
+      <circle cx="89.6" cy="502.4" r="14.0" fill="#ffffff" opacity="0.27"/>
+      <circle cx="85.7" cy="498.2" r="3.4" fill="#ffffff" opacity="0.57"/>
+    </g><g>
+      <circle cx="127.8" cy="549.8" r="13.1" fill="#ffffff" opacity="0.17"/>
+      <circle cx="124.2" cy="545.9" r="3.1" fill="#ffffff" opacity="0.47"/>
+    </g><g>
+      <circle cx="140.9" cy="501.2" r="7.6" fill="#ffffff" opacity="0.43"/>
+      <circle cx="138.7" cy="498.9" r="1.8" fill="#ffffff" opacity="0.73"/>
+    </g><g>
+      <circle cx="119.5" cy="461.3" r="4.6" fill="#ffffff" opacity="0.50"/>
+      <circle cx="118.2" cy="459.9" r="1.1" fill="#ffffff" opacity="0.80"/>
+    </g><g>
+      <circle cx="217.8" cy="504.3" r="14.2" fill="#ffffff" opacity="0.15"/>
+      <circle cx="213.8" cy="500.0" r="3.4" fill="#ffffff" opacity="0.45"/>
+    </g><g>
+      <circle cx="127.1" cy="488.6" r="14.5" fill="#ffffff" opacity="0.45"/>
+      <circle cx="123.1" cy="484.3" r="3.5" fill="#ffffff" opacity="0.75"/>
+    </g>
+  <rect width="600" height="600" filter="url(#grain)" opacity="0.35" style="mix-blend-mode:multiply"/>
+</svg>

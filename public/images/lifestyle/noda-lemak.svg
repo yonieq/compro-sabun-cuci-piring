@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="1200" height="933" role="img">
+  <defs>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="34"/></filter>
+    <filter id="soft20" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.16"/></feComponentTransfer>
+    </filter>
+    <filter id="drop" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="26" flood-color="#0d2a1b" flood-opacity="0.22"/>
+    </filter>
+    <linearGradient id="bottleBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#F4FBEF"/>
+      <stop offset="1" stop-color="#DDEFD2"/>
+    </linearGradient>
+    <linearGradient id="bottleGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.16" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="0.82" stop-color="#174D32" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#174D32" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="lbg-noda-lemak" x1="0" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#EFF3EF"/><stop offset="1" stop-color="#C7D3CB"/></linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#lbg-noda-lemak)"/>
+  <circle cx="720" cy="150" r="180" fill="#ffffff" opacity="0.35"/>
+  <path d="M 696.1 470.0 C 695.6 503.1 688.0 544.6 646.9 568.5 C 605.9 592.4 522.1 610.2 450.0 613.4 C 377.9 616.6 263.8 611.8 214.3 587.9 C 164.7 564.0 144.7 505.3 152.7 470.0 C 160.6 434.7 212.3 403.9 261.9 375.9 C 311.4 347.9 385.3 303.1 450.0 302.1 C 514.7 301.1 608.8 342.1 649.8 370.1 C 690.9 398.1 696.6 436.9 696.1 470.0 Z" fill="#7C948A" opacity="0.22"/>
+  <path d="M0 520 h900 v180 h-900 z" fill="#ffffff" opacity="0.35"/>
+  
+      <g transform="translate(250 160) scale(0.74)">
+        <g filter="url(#drop)">
+  <defs>
+    <clipPath id="sil-life4">
+      <path d="M136 90 h48 v26 c34 10 56 30 56 62 v436 c0 14 -10 24 -24 24 h-96 c-14 0 -24 -10 -24 -24 v-436 c0 -32 22 -52 56 -62 v-26 z"/>
+    </clipPath>
+    <linearGradient id="labelBg-life4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4F7F5"/>
+      <stop offset="1" stop-color="#F4F7F5" stop-opacity="0.86"/>
+    </linearGradient>
+    <linearGradient id="liquid-life4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5C6F68"/>
+      <stop offset="1" stop-color="#26332D"/>
+    </linearGradient>
+    <linearGradient id="shine-life4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.0"/>
+      <stop offset="0.12" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="0.62" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.9" stop-color="#174D32" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#174D32" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="cap-life4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#174D32" stop-opacity="0.72"/>
+      <stop offset="0.2" stop-color="#174D32"/>
+      <stop offset="0.72" stop-color="#174D32"/>
+      <stop offset="1" stop-color="#0b2a1c"/>
+    </linearGradient>
+    <linearGradient id="grade-life4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#174D32" stop-opacity="0"/>
+      <stop offset="1" stop-color="#174D32" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="160" cy="664" rx="112" ry="16" fill="#174D32" opacity="0.16" filter="url(#soft20)"/>
+
+  <!-- cap -->
+  <path d="M128 34 h64 a8 8 0 0 1 8 8 v40 h-80 v-40 a8 8 0 0 1 8-8 z" fill="url(#cap-life4)"/>
+  <rect x="120" y="74" width="80" height="16" rx="7" fill="#174D32"/>
+  <rect x="120" y="74" width="80" height="5" rx="2.5" fill="#ffffff" opacity="0.18"/>
+  <g opacity="0.28" fill="#ffffff">
+    <rect x="126" y="40" width="3" height="34" rx="1.5"/><rect x="144" y="40" width="3" height="34" rx="1.5"/><rect x="162" y="40" width="3" height="34" rx="1.5"/><rect x="180" y="40" width="3" height="34" rx="1.5"/>
+  </g>
+
+  <!-- neck + shoulder -->
+  <path d="M136 90 h48 v26 c34 10 56 30 56 62 v36 h-196 v-36 c0-32 22-52 56-62 v-26 z" fill="url(#bottleBody)"/>
+
+  <!-- liquid, clipped to the bottle silhouette -->
+  <g clip-path="url(#sil-life4)">
+    <path d="M100 240 h120 v360 h-120 z" fill="url(#liquid-life4)" opacity="0.92"/>
+    <path d="M100 240 c30 -10 90 -10 120 0 v16 c-30 10 -90 10 -120 0 z" fill="#ffffff" opacity="0.4"/>
+  </g>
+
+  <!-- body -->
+  <path d="M92 178 c34 -10 102 -10 136 0 c4 20 4 42 4 62 v404 c0 14 -10 24 -24 24 h-96 c-14 0 -24 -10 -24 -24 v-404 c0 -20 0 -42 4 -62 z" fill="url(#bottleGlow)" opacity="0.96"/>
+
+  <!-- embossed ribs -->
+  <g opacity="0.25" stroke="#174D32" stroke-width="2">
+    <path d="M96 230 v330" opacity="0.2"/><path d="M102 230 v330" opacity="0.2"/><path d="M108 230 v330" opacity="0.2"/>
+    <path d="M214 230 v330" opacity="0.2"/><path d="M220 230 v330" opacity="0.2"/><path d="M226 230 v330" opacity="0.2"/>
+  </g>
+
+  <!-- specular highlight -->
+  <rect x="108" y="206" width="20" height="400" rx="10" fill="#ffffff" opacity="0.55" filter="url(#soft20)"/>
+  <rect x="112" y="220" width="7" height="360" rx="3.5" fill="#ffffff" opacity="0.9"/>
+
+  <!-- label -->
+  <g clip-path="url(#labelClip-life4)">
+    <clipPath id="labelClip-life4"><rect x="88" y="236" width="144" height="286" rx="14"/></clipPath>
+    <rect x="88" y="236" width="144" height="286" rx="14" fill="url(#labelBg-life4)"/>
+    <!-- top citrus band -->
+    <rect x="88" y="236" width="144" height="56" fill="#7C948A" opacity="0.95"/>
+    <g transform="rotate(12 214 260)">
+    <circle cx="214" cy="260" r="21" fill="#F8D940"/>
+    <circle cx="214" cy="260" r="19.53" fill="#FFFCEB"/>
+    <circle cx="214" cy="260" r="18.48" fill="#FFF3B0"/>
+    <path d="M 214.16 256.43 L 214.83 241.54 A 18.48 18.48 0 0 1 225.23 245.32 L 216.17 257.16 A 3.5700000000000003 3.5700000000000003 0 0 0 214.16 256.43 Z M 216.42 257.37 L 226.50 246.39 A 18.48 18.48 0 0 1 232.04 255.98 L 217.48 259.22 A 3.5700000000000003 3.5700000000000003 0 0 0 216.42 257.37 Z M 217.54 259.54 L 232.33 257.61 A 18.48 18.48 0 0 1 230.40 268.51 L 217.17 261.64 A 3.5700000000000003 3.5700000000000003 0 0 0 217.54 259.54 Z M 217.01 261.92 L 229.57 269.95 A 18.48 18.48 0 0 1 221.10 277.06 L 215.37 263.30 A 3.5700000000000003 3.5700000000000003 0 0 0 217.01 261.92 Z M 215.07 263.41 L 219.53 277.63 A 18.48 18.48 0 0 1 208.47 277.63 L 212.93 263.41 A 3.5700000000000003 3.5700000000000003 0 0 0 215.07 263.41 Z M 212.63 263.30 L 206.90 277.06 A 18.48 18.48 0 0 1 198.43 269.95 L 210.99 261.92 A 3.5700000000000003 3.5700000000000003 0 0 0 212.63 263.30 Z M 210.83 261.64 L 197.60 268.51 A 18.48 18.48 0 0 1 195.67 257.61 L 210.46 259.54 A 3.5700000000000003 3.5700000000000003 0 0 0 210.83 261.64 Z M 210.52 259.22 L 195.96 255.98 A 18.48 18.48 0 0 1 201.50 246.39 L 211.58 257.37 A 3.5700000000000003 3.5700000000000003 0 0 0 210.52 259.22 Z M 211.83 257.16 L 202.77 245.32 A 18.48 18.48 0 0 1 213.17 241.54 L 213.84 256.43 A 3.5700000000000003 3.5700000000000003 0 0 0 211.83 257.16 Z " fill="#FFF3B0" stroke="#F2C531" stroke-width="0.46" stroke-opacity="0.55"/>
+    <path d="M 214.00 256.43 L 214.00 241.94 M 216.29 257.27 L 225.61 246.17 M 217.52 259.38 L 231.79 256.86 M 217.09 261.79 L 229.64 269.03 M 215.22 263.35 L 220.18 276.97 M 212.78 263.35 L 207.82 276.97 M 210.91 261.79 L 198.36 269.03 M 210.48 259.38 L 196.21 256.86 M 211.71 257.27 L 202.39 246.17 " stroke="#ffffff" stroke-opacity="0.5" stroke-width="0.42"/>
+    <ellipse cx="209.38" cy="254.54" rx="6.72" ry="4.2" fill="#ffffff" opacity="0.22" transform="rotate(-30 209.38 254.54)"/>
+  </g>
+    <text x="100" y="256" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="11" font-weight="900" fill="#182420" letter-spacing="2.2">CITRAVA</text>
+    <text x="100" y="272" font-family="Arial, Helvetica, sans-serif" font-size="6.4" font-weight="700" fill="#182420" letter-spacing="1.5" opacity="0.72">LIME SERIES</text>
+
+    <!-- product name -->
+    <text x="160" y="336" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#182420" letter-spacing="-0.4">CHARCOAL</text>
+    <text x="160" y="358" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#182420" letter-spacing="-0.4"></text>
+    <text x="160" y="378" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.6" font-weight="700" fill="#182420" letter-spacing="1.4" opacity="0.7">SABUN CUCI PIRING</text>
+
+    <line x1="112" y1="394" x2="208" y2="394" stroke="#182420" stroke-opacity="0.16" stroke-width="1"/>
+
+    <!-- variant -->
+    <text x="160" y="414" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8.6" font-weight="700" fill="#182420" letter-spacing="0.9">ARANG AKTIF</text>
+    <g transform="translate(122 426)">
+      
+      
+      <g transform="rotate(-18 36 8)">
+    <circle cx="36" cy="8" r="16" fill="#F8D940"/>
+    <circle cx="36" cy="8" r="14.88" fill="#FFF6C9"/>
+    <circle cx="36" cy="8" r="14.08" fill="#F8D940"/>
+    <path d="M 36.12 5.28 L 36.63 -6.07 A 14.08 14.08 0 0 1 44.56 -3.18 L 37.65 5.84 A 2.72 2.72 0 0 0 36.12 5.28 Z M 37.84 6.00 L 45.53 -2.37 A 14.08 14.08 0 0 1 49.74 4.93 L 38.65 7.41 A 2.72 2.72 0 0 0 37.84 6.00 Z M 38.70 7.65 L 49.96 6.18 A 14.08 14.08 0 0 1 48.50 14.48 L 38.41 9.25 A 2.72 2.72 0 0 0 38.70 7.65 Z M 38.29 9.46 L 47.86 15.58 A 14.08 14.08 0 0 1 41.41 21.00 L 37.04 10.51 A 2.72 2.72 0 0 0 38.29 9.46 Z M 36.81 10.60 L 40.22 21.43 A 14.08 14.08 0 0 1 31.78 21.43 L 35.19 10.60 A 2.72 2.72 0 0 0 36.81 10.60 Z M 34.96 10.51 L 30.59 21.00 A 14.08 14.08 0 0 1 24.14 15.58 L 33.71 9.46 A 2.72 2.72 0 0 0 34.96 10.51 Z M 33.59 9.25 L 23.50 14.48 A 14.08 14.08 0 0 1 22.04 6.18 L 33.30 7.65 A 2.72 2.72 0 0 0 33.59 9.25 Z M 33.35 7.41 L 22.26 4.93 A 14.08 14.08 0 0 1 26.47 -2.37 L 34.16 6.00 A 2.72 2.72 0 0 0 33.35 7.41 Z M 34.35 5.84 L 27.44 -3.18 A 14.08 14.08 0 0 1 35.37 -6.07 L 35.88 5.28 A 2.72 2.72 0 0 0 34.35 5.84 Z " fill="#F8D940" stroke="#F2C531" stroke-width="0.35" stroke-opacity="0.55"/>
+    <path d="M 36.00 5.28 L 36.00 -5.76 M 37.75 5.92 L 44.84 -2.54 M 38.68 7.53 L 49.55 5.61 M 38.36 9.36 L 47.92 14.88 M 36.93 10.56 L 40.71 20.93 M 35.07 10.56 L 31.29 20.93 M 33.64 9.36 L 24.08 14.88 M 33.32 7.53 L 22.45 5.61 M 34.25 5.92 L 27.16 -2.54 " stroke="#ffffff" stroke-opacity="0.5" stroke-width="0.32"/>
+    <ellipse cx="32.48" cy="3.84" rx="5.12" ry="3.2" fill="#ffffff" opacity="0.22" transform="rotate(-30 32.48 3.84)"/>
+  </g>
+    </g>
+
+    <!-- volume pill -->
+    <rect x="112" y="472" width="96" height="26" rx="13" fill="#182420"/>
+    <text x="160" y="489" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="700" fill="#F4F7F5" letter-spacing="0.8">680 mL</text>
+
+    
+  </g>
+  <rect x="88" y="236" width="144" height="286" rx="14" fill="none" stroke="#182420" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- bottom reflection -->
+  <path d="M92 612 c34 8 102 8 136 0 v32 c0 14 -10 24 -24 24 h-96 c-14 0 -24 -10 -24 -24 z" fill="url(#grade-life4)" opacity="0.5"/>
+  <ellipse cx="160" cy="640" rx="60" ry="4" fill="#ffffff" opacity="0.35"/>
+</g>
+      </g>
+      <circle cx="790" cy="360" r="6" fill="#174D32" opacity="0.16"/><circle cx="783.1491579260158" cy="394.44150891285807" r="11" fill="#174D32" opacity="0.16"/><circle cx="763.6396103067893" cy="423.6396103067893" r="16" fill="#174D32" opacity="0.16"/><circle cx="734.4415089128581" cy="443.1491579260158" r="21" fill="#174D32" opacity="0.16"/><circle cx="700" cy="450" r="6" fill="#174D32" opacity="0.16"/><circle cx="665.5584910871419" cy="443.1491579260158" r="11" fill="#174D32" opacity="0.16"/><circle cx="636.3603896932108" cy="423.6396103067893" r="16" fill="#174D32" opacity="0.16"/><circle cx="616.8508420739842" cy="394.44150891285807" r="21" fill="#174D32" opacity="0.16"/><circle cx="610" cy="360" r="6" fill="#174D32" opacity="0.16"/><circle cx="616.8508420739842" cy="325.55849108714193" r="11" fill="#174D32" opacity="0.16"/><circle cx="636.3603896932107" cy="296.3603896932107" r="16" fill="#174D32" opacity="0.16"/><circle cx="665.5584910871419" cy="276.8508420739842" r="21" fill="#174D32" opacity="0.16"/><circle cx="700" cy="270" r="6" fill="#174D32" opacity="0.16"/><circle cx="734.4415089128581" cy="276.8508420739842" r="11" fill="#174D32" opacity="0.16"/><circle cx="763.6396103067892" cy="296.3603896932107" r="16" fill="#174D32" opacity="0.16"/><circle cx="783.1491579260157" cy="325.5584910871419" r="21" fill="#174D32" opacity="0.16"/>
+      <circle cx="700" cy="360" r="110" fill="#ffffff" opacity="0.8" filter="url(#soft)"/>
+      <g transform="rotate(10 176 520)">
+    <circle cx="176" cy="520" r="54" fill="#7C948A"/>
+    <circle cx="176" cy="520" r="50.220000000000006" fill="#F2FAF5"/>
+    <circle cx="176" cy="520" r="47.52" fill="#DDF0E6"/>
+    <path d="M 176.41 510.83 L 178.14 472.53 A 47.52 47.52 0 0 1 204.88 482.26 L 181.58 512.71 A 9.180000000000001 9.180000000000001 0 0 0 176.41 510.83 Z M 182.21 513.24 L 208.15 485.01 A 47.52 47.52 0 0 1 222.38 509.65 L 184.96 518.00 A 9.180000000000001 9.180000000000001 0 0 0 182.21 513.24 Z M 185.10 518.81 L 223.12 513.86 A 47.52 47.52 0 0 1 218.18 541.88 L 184.15 524.23 A 9.180000000000001 9.180000000000001 0 0 0 185.10 518.81 Z M 183.74 524.94 L 216.04 545.59 A 47.52 47.52 0 0 1 194.25 563.88 L 179.52 528.48 A 9.180000000000001 9.180000000000001 0 0 0 183.74 524.94 Z M 178.75 528.76 L 190.23 565.34 A 47.52 47.52 0 0 1 161.77 565.34 L 173.25 528.76 A 9.180000000000001 9.180000000000001 0 0 0 178.75 528.76 Z M 172.48 528.48 L 157.75 563.88 A 47.52 47.52 0 0 1 135.96 545.59 L 168.26 524.94 A 9.180000000000001 9.180000000000001 0 0 0 172.48 528.48 Z M 167.85 524.23 L 133.82 541.88 A 47.52 47.52 0 0 1 128.88 513.86 L 166.90 518.81 A 9.180000000000001 9.180000000000001 0 0 0 167.85 524.23 Z M 167.04 518.00 L 129.62 509.65 A 47.52 47.52 0 0 1 143.85 485.01 L 169.79 513.24 A 9.180000000000001 9.180000000000001 0 0 0 167.04 518.00 Z M 170.42 512.71 L 147.12 482.26 A 47.52 47.52 0 0 1 173.86 472.53 L 175.59 510.83 A 9.180000000000001 9.180000000000001 0 0 0 170.42 512.71 Z " fill="#DDF0E6" stroke="#F2C531" stroke-width="1.19" stroke-opacity="0.55"/>
+    <path d="M 176.00 510.82 L 176.00 473.56 M 181.90 512.97 L 205.85 484.42 M 185.04 518.41 L 221.73 511.94 M 183.95 524.59 L 216.22 543.22 M 179.14 528.63 L 191.88 563.64 M 172.86 528.63 L 160.12 563.64 M 168.05 524.59 L 135.78 543.22 M 166.96 518.41 L 130.27 511.94 M 170.10 512.97 L 146.15 484.42 " stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.08"/>
+    <ellipse cx="164.12" cy="505.96" rx="17.28" ry="10.8" fill="#ffffff" opacity="0.22" transform="rotate(-30 164.12 505.96)"/>
+  </g>
+  <g transform="translate(34 28)">
+    <rect x="0" y="0" width="196" height="34" rx="17" fill="#FFFFFF" opacity="0.72"/>
+    <text x="98" y="22" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#174D32" letter-spacing="2.2">PROBLEM / SOLVED</text>
+  </g>
+  <rect width="900" height="700" filter="url(#grain)" opacity="0.3" style="mix-blend-mode:multiply"/>
+</svg>

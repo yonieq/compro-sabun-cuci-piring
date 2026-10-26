@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-10-26T09:12:44.906Z",
+  "note": "Original generated artwork. Regenerate with: node scripts/generate-artwork.mjs",
+  "assets": [
+    "/public/images/hero/hero-product.svg",
+    "/public/images/products/mama-lemon-jeruk-nipis.svg",
+    "/public/images/products/mama-lemon-lemon-mint.svg",
+    "/public/images/products/mama-lemon-japanese-yuzu.svg",
+    "/public/images/products/mama-lemon-stain-remover.svg",
+    "/public/images/products/mama-lime-mineral-salt.svg",
+    "/public/images/products/mama-lime-charcoal.svg",
+    "/public/images/products/mama-lime-green-tea.svg",
+    "/public/images/lifestyle/tentang-dapur.svg",
+    "/public/images/lifestyle/dapur-bersih.svg",
+    "/public/images/lifestyle/tips-mencuci-piring.svg",
+    "/public/images/lifestyle/merawat-peralatan-dapur.svg",
+    "/public/images/lifestyle/area-memasak-bersih.svg",
+    "/public/images/lifestyle/noda-lemak.svg",
+    "/public/images/articles/artikel-lemak.svg",
+    "/public/images/articles/artikel-citrus.svg",
+    "/public/images/articles/artikel-dapur.svg",
+    "/public/images/brand/logo-mark.svg",
+    "/public/images/brand/favicon.svg",
+    "/public/images/hero/og-citrava.svg"
+  ]
+}

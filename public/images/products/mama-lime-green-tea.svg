@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="1200" height="1200" role="img">
+  <defs>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="34"/></filter>
+    <filter id="soft20" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.16"/></feComponentTransfer>
+    </filter>
+    <filter id="drop" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="26" flood-color="#0d2a1b" flood-opacity="0.22"/>
+    </filter>
+    <linearGradient id="bottleBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#F4FBEF"/>
+      <stop offset="1" stop-color="#DDEFD2"/>
+    </linearGradient>
+    <linearGradient id="bottleGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.16" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="0.82" stop-color="#174D32" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#174D32" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#F2F7E4"/><stop offset="1" stop-color="#D3DFB2"/></linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <path d="M 493.7 320.0 C 492.1 370.9 493.6 431.9 461.4 468.5 C 429.1 505.0 352.1 540.9 300.0 539.4 C 247.9 537.8 188.1 495.7 148.8 459.1 C 109.6 422.5 62.8 364.8 64.5 320.0 C 66.2 275.2 119.8 226.7 159.0 190.3 C 198.3 153.9 248.0 106.2 300.0 101.6 C 352.0 97.0 438.6 126.4 470.9 162.8 C 503.1 199.2 495.2 269.1 493.7 320.0 Z" fill="#ffffff" opacity="0.5"/>
+  <path d="M 455.9 330.0 C 457.2 369.9 456.1 424.5 430.1 453.6 C 404.1 482.7 340.0 508.0 300.0 504.8 C 260.0 501.7 223.9 463.8 189.8 434.7 C 155.7 405.5 96.1 365.7 95.3 330.0 C 94.5 294.3 150.8 247.7 184.9 220.7 C 219.1 193.7 260.5 169.1 300.0 168.1 C 339.5 167.0 395.8 187.3 421.8 214.3 C 447.8 241.3 454.5 290.1 455.9 330.0 Z" fill="#9DB35B" opacity="0.18"/>
+  
+        <g transform="translate(70 150) rotate(28)">
+    <path d="M0 0 C 29.240000000000002 -36.12 67.08 -19.866 86 0 C 67.08 19.866 29.240000000000002 36.12 0 0 Z" fill="#9DB35B"/>
+    <path d="M1.72 0 C 30.099999999999998 -5.7791999999999994 61.919999999999995 -2.1672 84.28 0" stroke="#657A2F" stroke-width="1.72" fill="none" opacity="0.7"/>
+  </g>
+        <g transform="translate(452 430) rotate(196)">
+    <path d="M0 0 C 25.16 -31.08 57.72 -17.094 74 0 C 57.72 17.094 25.16 31.08 0 0 Z" fill="#B4C972"/>
+    <path d="M1.48 0 C 25.9 -4.972799999999999 53.28 -1.8647999999999998 72.52 0" stroke="#657A2F" stroke-width="1.48" fill="none" opacity="0.7"/>
+  </g>
+        <g transform="rotate(-14 300 516)">
+    <circle cx="300" cy="516" r="58" fill="#9DB35B"/>
+    <circle cx="300" cy="516" r="53.940000000000005" fill="#F7FBE8"/>
+    <circle cx="300" cy="516" r="51.04" fill="#E4F0B8"/>
+    <path d="M 300.44 506.15 L 302.30 465.01 A 51.04 51.04 0 0 1 331.02 475.46 L 305.99 508.17 A 9.860000000000001 9.860000000000001 0 0 0 300.44 506.15 Z M 306.67 508.74 L 334.53 478.42 A 51.04 51.04 0 0 1 349.82 504.88 L 309.62 513.85 A 9.860000000000001 9.860000000000001 0 0 0 306.67 508.74 Z M 309.78 514.73 L 350.61 509.41 A 51.04 51.04 0 0 1 345.31 539.51 L 308.75 520.54 A 9.860000000000001 9.860000000000001 0 0 0 309.78 514.73 Z M 308.31 521.31 L 343.01 543.48 A 51.04 51.04 0 0 1 319.60 563.13 L 303.79 525.10 A 9.860000000000001 9.860000000000001 0 0 0 308.31 521.31 Z M 302.95 525.41 L 315.28 564.70 A 51.04 51.04 0 0 1 284.72 564.70 L 297.05 525.41 A 9.860000000000001 9.860000000000001 0 0 0 302.95 525.41 Z M 296.21 525.10 L 280.40 563.13 A 51.04 51.04 0 0 1 256.99 543.48 L 291.69 521.31 A 9.860000000000001 9.860000000000001 0 0 0 296.21 525.10 Z M 291.25 520.54 L 254.69 539.51 A 51.04 51.04 0 0 1 249.39 509.41 L 290.22 514.73 A 9.860000000000001 9.860000000000001 0 0 0 291.25 520.54 Z M 290.38 513.85 L 250.18 504.88 A 51.04 51.04 0 0 1 265.47 478.42 L 293.33 508.74 A 9.860000000000001 9.860000000000001 0 0 0 290.38 513.85 Z M 294.01 508.17 L 268.98 475.46 A 51.04 51.04 0 0 1 297.70 465.01 L 299.56 506.15 A 9.860000000000001 9.860000000000001 0 0 0 294.01 508.17 Z " fill="#E4F0B8" stroke="#F2C531" stroke-width="1.28" stroke-opacity="0.55"/>
+    <path d="M 300.00 506.14 L 300.00 466.12 M 306.34 508.45 L 332.06 477.79 M 309.71 514.29 L 349.12 507.34 M 308.54 520.93 L 343.20 540.94 M 303.37 525.27 L 317.06 562.87 M 296.63 525.27 L 282.94 562.87 M 291.46 520.93 L 256.80 540.94 M 290.29 514.29 L 250.88 507.34 M 293.66 508.45 L 267.94 477.79 " stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.16"/>
+    <ellipse cx="287.24" cy="500.92" rx="18.56" ry="11.600000000000001" fill="#ffffff" opacity="0.22" transform="rotate(-30 287.24 500.92)"/>
+  </g>
+        <g>
+      <circle cx="532.8" cy="166.4" r="5.0" fill="#FFFFFF" opacity="0.40"/>
+      <circle cx="531.4" cy="164.9" r="1.2" fill="#ffffff" opacity="0.70"/>
+    </g><g>
+      <circle cx="522.1" cy="99.3" r="11.3" fill="#FFFFFF" opacity="0.42"/>
+      <circle cx="518.9" cy="96.0" r="2.7" fill="#ffffff" opacity="0.72"/>
+    </g><g>
+      <circle cx="313.7" cy="185.8" r="15.6" fill="#FFFFFF" opacity="0.22"/>
+      <circle cx="309.3" cy="181.1" r="3.7" fill="#ffffff" opacity="0.52"/>
+    </g><g>
+      <circle cx="335.1" cy="181.1" r="13.0" fill="#FFFFFF" opacity="0.20"/>
+      <circle cx="331.4" cy="177.2" r="3.1" fill="#ffffff" opacity="0.50"/>
+    </g><g>
+      <circle cx="468.1" cy="184.7" r="6.0" fill="#FFFFFF" opacity="0.15"/>
+      <circle cx="466.5" cy="182.9" r="1.4" fill="#ffffff" opacity="0.45"/>
+    </g><g>
+      <circle cx="419.1" cy="143.6" r="17.9" fill="#FFFFFF" opacity="0.37"/>
+      <circle cx="414.1" cy="138.2" r="4.3" fill="#ffffff" opacity="0.67"/>
+    </g><g>
+      <circle cx="528.1" cy="111.6" r="5.0" fill="#FFFFFF" opacity="0.31"/>
+      <circle cx="526.7" cy="110.1" r="1.2" fill="#ffffff" opacity="0.61"/>
+    </g><g>
+      <circle cx="494.0" cy="177.5" r="16.1" fill="#FFFFFF" opacity="0.26"/>
+      <circle cx="489.5" cy="172.6" r="3.9" fill="#ffffff" opacity="0.56"/>
+    </g>
+  <g transform="translate(178 22) scale(0.8)">
+    <g filter="url(#drop)">
+  <defs>
+    <clipPath id="sil-mama-lime-green-tea">
+      <path d="M136 90 h48 v26 c34 10 56 30 56 62 v436 c0 14 -10 24 -24 24 h-96 c-14 0 -24 -10 -24 -24 v-436 c0 -32 22 -52 56 -62 v-26 z"/>
+    </clipPath>
+    <linearGradient id="labelBg-mama-lime-green-tea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBFCF2"/>
+      <stop offset="1" stop-color="#FBFCF2" stop-opacity="0.86"/>
+    </linearGradient>
+    <linearGradient id="liquid-mama-lime-green-tea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B9CC72"/>
+      <stop offset="1" stop-color="#6E8C33"/>
+    </linearGradient>
+    <linearGradient id="shine-mama-lime-green-tea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.0"/>
+      <stop offset="0.12" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="0.62" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.9" stop-color="#174D32" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#174D32" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="cap-mama-lime-green-tea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#174D32" stop-opacity="0.72"/>
+      <stop offset="0.2" stop-color="#174D32"/>
+      <stop offset="0.72" stop-color="#174D32"/>
+      <stop offset="1" stop-color="#0b2a1c"/>
+    </linearGradient>
+    <linearGradient id="grade-mama-lime-green-tea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#174D32" stop-opacity="0"/>
+      <stop offset="1" stop-color="#174D32" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="160" cy="664" rx="112" ry="16" fill="#174D32" opacity="0.16" filter="url(#soft20)"/>
+
+  <!-- cap -->
+  <path d="M128 34 h64 a8 8 0 0 1 8 8 v40 h-80 v-40 a8 8 0 0 1 8-8 z" fill="url(#cap-mama-lime-green-tea)"/>
+  <rect x="120" y="74" width="80" height="16" rx="7" fill="#174D32"/>
+  <rect x="120" y="74" width="80" height="5" rx="2.5" fill="#ffffff" opacity="0.18"/>
+  <g opacity="0.28" fill="#ffffff">
+    <rect x="126" y="40" width="3" height="34" rx="1.5"/><rect x="144" y="40" width="3" height="34" rx="1.5"/><rect x="162" y="40" width="3" height="34" rx="1.5"/><rect x="180" y="40" width="3" height="34" rx="1.5"/>
+  </g>
+
+  <!-- neck + shoulder -->
+  <path d="M136 90 h48 v26 c34 10 56 30 56 62 v36 h-196 v-36 c0-32 22-52 56-62 v-26 z" fill="url(#bottleBody)"/>
+
+  <!-- liquid, clipped to the bottle silhouette -->
+  <g clip-path="url(#sil-mama-lime-green-tea)">
+    <path d="M100 240 h120 v360 h-120 z" fill="url(#liquid-mama-lime-green-tea)" opacity="0.92"/>
+    <path d="M100 240 c30 -10 90 -10 120 0 v16 c-30 10 -90 10 -120 0 z" fill="#ffffff" opacity="0.4"/>
+  </g>
+
+  <!-- body -->
+  <path d="M92 178 c34 -10 102 -10 136 0 c4 20 4 42 4 62 v404 c0 14 -10 24 -24 24 h-96 c-14 0 -24 -10 -24 -24 v-404 c0 -20 0 -42 4 -62 z" fill="url(#bottleGlow)" opacity="0.96"/>
+
+  <!-- embossed ribs -->
+  <g opacity="0.25" stroke="#174D32" stroke-width="2">
+    <path d="M96 230 v330" opacity="0.2"/><path d="M102 230 v330" opacity="0.2"/><path d="M108 230 v330" opacity="0.2"/>
+    <path d="M214 230 v330" opacity="0.2"/><path d="M220 230 v330" opacity="0.2"/><path d="M226 230 v330" opacity="0.2"/>
+  </g>
+
+  <!-- specular highlight -->
+  <rect x="108" y="206" width="20" height="400" rx="10" fill="#ffffff" opacity="0.55" filter="url(#soft20)"/>
+  <rect x="112" y="220" width="7" height="360" rx="3.5" fill="#ffffff" opacity="0.9"/>
+
+  <!-- label -->
+  <g clip-path="url(#labelClip-mama-lime-green-tea)">
+    <clipPath id="labelClip-mama-lime-green-tea"><rect x="88" y="236" width="144" height="286" rx="14"/></clipPath>
+    <rect x="88" y="236" width="144" height="286" rx="14" fill="url(#labelBg-mama-lime-green-tea)"/>
+    <!-- top citrus band -->
+    <rect x="88" y="236" width="144" height="56" fill="#B4C972" opacity="0.95"/>
+    <g transform="rotate(12 214 260)">
+    <circle cx="214" cy="260" r="21" fill="#F8D940"/>
+    <circle cx="214" cy="260" r="19.53" fill="#FFFCEB"/>
+    <circle cx="214" cy="260" r="18.48" fill="#FFF3B0"/>
+    <path d="M 214.16 256.43 L 214.83 241.54 A 18.48 18.48 0 0 1 225.23 245.32 L 216.17 257.16 A 3.5700000000000003 3.5700000000000003 0 0 0 214.16 256.43 Z M 216.42 257.37 L 226.50 246.39 A 18.48 18.48 0 0 1 232.04 255.98 L 217.48 259.22 A 3.5700000000000003 3.5700000000000003 0 0 0 216.42 257.37 Z M 217.54 259.54 L 232.33 257.61 A 18.48 18.48 0 0 1 230.40 268.51 L 217.17 261.64 A 3.5700000000000003 3.5700000000000003 0 0 0 217.54 259.54 Z M 217.01 261.92 L 229.57 269.95 A 18.48 18.48 0 0 1 221.10 277.06 L 215.37 263.30 A 3.5700000000000003 3.5700000000000003 0 0 0 217.01 261.92 Z M 215.07 263.41 L 219.53 277.63 A 18.48 18.48 0 0 1 208.47 277.63 L 212.93 263.41 A 3.5700000000000003 3.5700000000000003 0 0 0 215.07 263.41 Z M 212.63 263.30 L 206.90 277.06 A 18.48 18.48 0 0 1 198.43 269.95 L 210.99 261.92 A 3.5700000000000003 3.5700000000000003 0 0 0 212.63 263.30 Z M 210.83 261.64 L 197.60 268.51 A 18.48 18.48 0 0 1 195.67 257.61 L 210.46 259.54 A 3.5700000000000003 3.5700000000000003 0 0 0 210.83 261.64 Z M 210.52 259.22 L 195.96 255.98 A 18.48 18.48 0 0 1 201.50 246.39 L 211.58 257.37 A 3.5700000000000003 3.5700000000000003 0 0 0 210.52 259.22 Z M 211.83 257.16 L 202.77 245.32 A 18.48 18.48 0 0 1 213.17 241.54 L 213.84 256.43 A 3.5700000000000003 3.5700000000000003 0 0 0 211.83 257.16 Z " fill="#FFF3B0" stroke="#F2C531" stroke-width="0.46" stroke-opacity="0.55"/>
+    <path d="M 214.00 256.43 L 214.00 241.94 M 216.29 257.27 L 225.61 246.17 M 217.52 259.38 L 231.79 256.86 M 217.09 261.79 L 229.64 269.03 M 215.22 263.35 L 220.18 276.97 M 212.78 263.35 L 207.82 276.97 M 210.91 261.79 L 198.36 269.03 M 210.48 259.38 L 196.21 256.86 M 211.71 257.27 L 202.39 246.17 " stroke="#ffffff" stroke-opacity="0.5" stroke-width="0.42"/>
+    <ellipse cx="209.38" cy="254.54" rx="6.72" ry="4.2" fill="#ffffff" opacity="0.22" transform="rotate(-30 209.38 254.54)"/>
+  </g>
+    <text x="100" y="256" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="11" font-weight="900" fill="#2E3A14" letter-spacing="2.2">CITRAVA</text>
+    <text x="100" y="272" font-family="Arial, Helvetica, sans-serif" font-size="6.4" font-weight="700" fill="#2E3A14" letter-spacing="1.5" opacity="0.72">LIME SERIES</text>
+
+    <!-- product name -->
+    <text x="160" y="336" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#2E3A14" letter-spacing="-0.4">GREEN</text>
+    <text x="160" y="358" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#2E3A14" letter-spacing="-0.4">TEA</text>
+    <text x="160" y="378" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="6.6" font-weight="700" fill="#2E3A14" letter-spacing="1.4" opacity="0.7">SABUN CUCI PIRING</text>
+
+    <line x1="112" y1="394" x2="208" y2="394" stroke="#2E3A14" stroke-opacity="0.16" stroke-width="1"/>
+
+    <!-- variant -->
+    <text x="160" y="414" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8.6" font-weight="700" fill="#2E3A14" letter-spacing="0.9">HABBATUSSAUDA</text>
+    <g transform="translate(122 426)">
+      <g transform="translate(0 0) rotate(8)">
+    <path d="M0 0 C 6.12 -7.56 14.040000000000001 -4.158 18 0 C 14.040000000000001 4.158 6.12 7.56 0 0 Z" fill="#4CAF50"/>
+    <path d="M0.36 0 C 6.3 -1.2096 12.959999999999999 -0.45359999999999995 17.64 0" stroke="#2C7A38" stroke-width="0.36" fill="none" opacity="0.7"/>
+  </g>
+      <g transform="translate(30 -4) rotate(150)">
+    <path d="M0 0 C 5.44 -6.72 12.48 -3.696 16 0 C 12.48 3.696 5.44 6.72 0 0 Z" fill="#65B832"/>
+    <path d="M0.32 0 C 5.6 -1.0752 11.52 -0.40319999999999995 15.68 0" stroke="#2C7A38" stroke-width="0.32" fill="none" opacity="0.7"/>
+  </g>
+      
+    </g>
+
+    <!-- volume pill -->
+    <rect x="112" y="472" width="96" height="26" rx="13" fill="#2E3A14"/>
+    <text x="160" y="489" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="700" fill="#FBFCF2" letter-spacing="0.8">680 mL</text>
+
+    <g opacity="0.5"><g transform="rotate(-20 112 440)">
+    <ellipse cx="112" cy="440.48" rx="9" ry="8" fill="#618C41"/>
+    <ellipse cx="111.64" cy="440" rx="8.73" ry="7.68" fill="#8FBF6A"/>
+    <ellipse cx="109.3" cy="437.12" rx="3.06" ry="1.76" fill="#ffffff" opacity="0.35" transform="rotate(-28 109.3 437.12)"/>
+    <circle cx="120.28" cy="440" r="1.17" fill="#618C41" opacity="0.55"/>
+  </g></g>
+  </g>
+  <rect x="88" y="236" width="144" height="286" rx="14" fill="none" stroke="#2E3A14" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- bottom reflection -->
+  <path d="M92 612 c34 8 102 8 136 0 v32 c0 14 -10 24 -24 24 h-96 c-14 0 -24 -10 -24 -24 z" fill="url(#grade-mama-lime-green-tea)" opacity="0.5"/>
+  <ellipse cx="160" cy="640" rx="60" ry="4" fill="#ffffff" opacity="0.35"/>
+</g>
+  </g>
+  <g>
+      <circle cx="129.5" cy="393.9" r="4.0" fill="#ffffff" opacity="0.17"/>
+      <circle cx="128.4" cy="392.7" r="1.0" fill="#ffffff" opacity="0.47"/>
+    </g><g>
+      <circle cx="126.1" cy="516.3" r="8.0" fill="#ffffff" opacity="0.38"/>
+      <circle cx="123.9" cy="513.9" r="1.9" fill="#ffffff" opacity="0.68"/>
+    </g><g>
+      <circle cx="85.5" cy="551.9" r="11.9" fill="#ffffff" opacity="0.35"/>
+      <circle cx="82.2" cy="548.3" r="2.9" fill="#ffffff" opacity="0.65"/>
+    </g><g>
+      <circle cx="224.1" cy="389.5" r="8.0" fill="#ffffff" opacity="0.19"/>
+      <circle cx="221.9" cy="387.1" r="1.9" fill="#ffffff" opacity="0.49"/>
+    </g><g>
+      <circle cx="117.8" cy="550.9" r="6.8" fill="#ffffff" opacity="0.43"/>
+      <circle cx="115.9" cy="548.9" r="1.6" fill="#ffffff" opacity="0.73"/>
+    </g><g>
+      <circle cx="59.2" cy="494.3" r="12.8" fill="#ffffff" opacity="0.13"/>
+      <circle cx="55.6" cy="490.5" r="3.1" fill="#ffffff" opacity="0.43"/>
+    </g><g>
+      <circle cx="37.0" cy="428.4" r="6.5" fill="#ffffff" opacity="0.22"/>
+      <circle cx="35.2" cy="426.4" r="1.6" fill="#ffffff" opacity="0.52"/>
+    </g><g>
+      <circle cx="223.6" cy="557.7" r="11.8" fill="#ffffff" opacity="0.29"/>
+      <circle cx="220.3" cy="554.1" r="2.8" fill="#ffffff" opacity="0.59"/>
+    </g>
+  <rect width="600" height="600" filter="url(#grain)" opacity="0.35" style="mix-blend-mode:multiply"/>
+</svg>

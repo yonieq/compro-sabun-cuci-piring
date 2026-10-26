@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img">
+  <defs>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="34"/></filter>
+    <filter id="soft20" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.16"/></feComponentTransfer>
+    </filter>
+    <filter id="drop" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="26" flood-color="#0d2a1b" flood-opacity="0.22"/>
+    </filter>
+    <linearGradient id="bottleBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#F4FBEF"/>
+      <stop offset="1" stop-color="#DDEFD2"/>
+    </linearGradient>
+    <linearGradient id="bottleGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.16" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="0.82" stop-color="#174D32" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#174D32" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="ogbg" x1="0" y1="0" x2="0.9" y2="1"><stop offset="0" stop-color="#174D32"/><stop offset="0.62" stop-color="#1F5C3C"/><stop offset="1" stop-color="#2D7A45"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogbg)"/>
+  <circle cx="980" cy="200" r="240" fill="#B8E54B" opacity="0.28" filter="url(#soft)"/>
+  <circle cx="220" cy="560" r="220" fill="#F8D940" opacity="0.16" filter="url(#soft)"/>
+  <path d="M 1229.6 430.0 C 1230.3 475.6 1211.5 529.0 1173.3 568.6 C 1135.0 608.2 1057.2 667.9 1000.0 667.5 C 942.8 667.0 879.4 605.5 830.1 566.0 C 780.7 526.4 712.0 482.0 703.6 430.0 C 695.3 378.0 730.6 289.4 780.0 254.0 C 829.4 218.6 935.2 211.0 1000.0 217.9 C 1064.8 224.7 1130.6 259.5 1168.9 294.9 C 1207.1 330.3 1228.9 384.4 1229.6 430.0 Z" fill="#B8E54B" opacity="0.16"/>
+  <g transform="translate(80 84)">
+    <circle cx="0" cy="0" r="0" fill="none"/>
+    <text x="0" y="42" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="46" font-weight="900" fill="#FAFBF6" letter-spacing="4">CITRAVA</text>
+    <rect x="0" y="62" width="84" height="6" rx="3" fill="#B8E54B"/>
+  </g>
+  <text x="80" y="290" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="76" font-weight="900" fill="#FFFFFF" letter-spacing="-2">Dapur Bersih.</text>
+  <text x="80" y="376" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="76" font-weight="900" fill="#B8E54B" letter-spacing="-2">Hidup Lebih Segar.</text>
+  <text x="80" y="452" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#E9F5E0" opacity="0.86">Bersih Maksimal, Segar Setiap Hari.</text>
+  <rect x="80" y="500" width="232" height="58" rx="29" fill="#F8D940"/>
+  <text x="196" y="537" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#17251B">Jelajahi Produk</text>
+  <g transform="rotate(-14 986 330)">
+    <circle cx="986" cy="330" r="150" fill="#9ED12F"/>
+    <circle cx="986" cy="330" r="139.5" fill="#F3FDD4"/>
+    <circle cx="986" cy="330" r="132" fill="#D9F46E"/>
+    <path d="M 987.15 304.53 L 991.94 198.13 A 132 132 0 0 1 1066.21 225.17 L 1001.50 309.75 A 25.500000000000004 25.500000000000004 0 0 0 987.15 304.53 Z M 1003.25 311.22 L 1075.31 232.80 A 132 132 0 0 1 1114.83 301.25 L 1010.89 324.45 A 25.500000000000004 25.500000000000004 0 0 0 1003.25 311.22 Z M 1011.29 326.71 L 1116.89 312.95 A 132 132 0 0 1 1103.17 390.79 L 1008.63 341.74 A 25.500000000000004 25.500000000000004 0 0 0 1011.29 326.71 Z M 1007.49 343.73 L 1097.23 401.08 A 132 132 0 0 1 1036.68 451.88 L 995.79 353.55 A 25.500000000000004 25.500000000000004 0 0 0 1007.49 343.73 Z M 993.63 354.33 L 1025.52 455.94 A 132 132 0 0 1 946.48 455.94 L 978.37 354.33 A 25.500000000000004 25.500000000000004 0 0 0 993.63 354.33 Z M 976.21 353.55 L 935.32 451.88 A 132 132 0 0 1 874.77 401.08 L 964.51 343.73 A 25.500000000000004 25.500000000000004 0 0 0 976.21 353.55 Z M 963.37 341.74 L 868.83 390.79 A 132 132 0 0 1 855.11 312.95 L 960.71 326.71 A 25.500000000000004 25.500000000000004 0 0 0 963.37 341.74 Z M 961.11 324.45 L 857.17 301.25 A 132 132 0 0 1 896.69 232.80 L 968.75 311.22 A 25.500000000000004 25.500000000000004 0 0 0 961.11 324.45 Z M 970.50 309.75 L 905.79 225.17 A 132 132 0 0 1 980.06 198.13 L 984.85 304.53 A 25.500000000000004 25.500000000000004 0 0 0 970.50 309.75 Z " fill="#D9F46E" stroke="#F2C531" stroke-width="3.30" stroke-opacity="0.55"/>
+    <path d="M 986.00 304.50 L 986.00 201.00 M 1002.39 310.47 L 1068.92 231.18 M 1011.11 325.57 L 1113.04 307.60 M 1008.08 342.75 L 1097.72 394.50 M 994.72 353.96 L 1030.12 451.22 M 977.28 353.96 L 941.88 451.22 M 963.92 342.75 L 874.28 394.50 M 960.89 325.57 L 858.96 307.60 M 969.61 310.47 L 903.08 231.18 " stroke="#ffffff" stroke-opacity="0.5" stroke-width="3.00"/>
+    <ellipse cx="953" cy="291" rx="48" ry="30" fill="#ffffff" opacity="0.22" transform="rotate(-30 953 291)"/>
+  </g>
+  <g transform="translate(1040 210) rotate(-38)">
+    <path d="M0 0 C 40.800000000000004 -50.4 93.60000000000001 -27.720000000000002 120 0 C 93.60000000000001 27.720000000000002 40.800000000000004 50.4 0 0 Z" fill="#4CAF50"/>
+    <path d="M2.4 0 C 42 -8.064 86.39999999999999 -3.024 117.6 0" stroke="#2C7A38" stroke-width="2.40" fill="none" opacity="0.7"/>
+  </g>
+  <g>
+      <circle cx="837.8" cy="82.4" r="6.0" fill="#ffffff" opacity="0.37"/>
+      <circle cx="836.1" cy="80.6" r="1.4" fill="#ffffff" opacity="0.67"/>
+    </g><g>
+      <circle cx="1075.6" cy="248.2" r="11.2" fill="#ffffff" opacity="0.28"/>
+      <circle cx="1072.4" cy="244.8" r="2.7" fill="#ffffff" opacity="0.58"/>
+    </g><g>
+      <circle cx="982.4" cy="94.0" r="14.7" fill="#ffffff" opacity="0.18"/>
+      <circle cx="978.3" cy="89.6" r="3.5" fill="#ffffff" opacity="0.48"/>
+    </g><g>
+      <circle cx="914.0" cy="273.8" r="19.0" fill="#ffffff" opacity="0.21"/>
+      <circle cx="908.7" cy="268.2" r="4.5" fill="#ffffff" opacity="0.51"/>
+    </g><g>
+      <circle cx="840.9" cy="93.7" r="13.4" fill="#ffffff" opacity="0.32"/>
+      <circle cx="837.2" cy="89.6" r="3.2" fill="#ffffff" opacity="0.62"/>
+    </g><g>
+      <circle cx="988.0" cy="415.9" r="12.8" fill="#ffffff" opacity="0.29"/>
+      <circle cx="984.4" cy="412.1" r="3.1" fill="#ffffff" opacity="0.59"/>
+    </g><g>
+      <circle cx="893.2" cy="427.9" r="21.4" fill="#ffffff" opacity="0.21"/>
+      <circle cx="887.3" cy="421.4" r="5.1" fill="#ffffff" opacity="0.51"/>
+    </g><g>
+      <circle cx="1027.2" cy="201.3" r="12.6" fill="#ffffff" opacity="0.16"/>
+      <circle cx="1023.7" cy="197.5" r="3.0" fill="#ffffff" opacity="0.46"/>
+    </g><g>
+      <circle cx="949.1" cy="504.3" r="8.0" fill="#ffffff" opacity="0.36"/>
+      <circle cx="946.9" cy="501.9" r="1.9" fill="#ffffff" opacity="0.66"/>
+    </g><g>
+      <circle cx="837.4" cy="524.1" r="7.2" fill="#ffffff" opacity="0.47"/>
+      <circle cx="835.4" cy="522.0" r="1.7" fill="#ffffff" opacity="0.77"/>
+    </g><g>
+      <circle cx="1112.5" cy="450.6" r="25.5" fill="#ffffff" opacity="0.13"/>
+      <circle cx="1105.4" cy="443.0" r="6.1" fill="#ffffff" opacity="0.43"/>
+    </g><g>
+      <circle cx="1017.7" cy="86.5" r="10.2" fill="#ffffff" opacity="0.15"/>
+      <circle cx="1014.8" cy="83.5" r="2.5" fill="#ffffff" opacity="0.45"/>
+    </g>
+</svg>
